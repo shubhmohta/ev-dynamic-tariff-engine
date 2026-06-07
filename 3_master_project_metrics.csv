@@ -1,0 +1,20 @@
+AI Agent,Rubric Category,Metric Description,Value
+1. ML Oracle,Utilization Forecast,Mean Absolute Error (MAE),0.0052
+1. ML Oracle,Utilization Forecast,Root Mean Squared Error (RMSE),0.0504
+1. ML Oracle,Utilization Forecast,R-Squared (R2),0.8518
+1. ML Oracle,Congestion Forecast,ROC-AUC Score,0.9964
+1. ML Oracle,Load (Volume) Forecast,Mean Absolute Error (kWh),3.89
+1. ML Oracle,Load (Volume) Forecast,Root Mean Squared Error (kWh),14.01
+1. ML Oracle,Load (Volume) Forecast,R-Squared (R2),0.983
+2. Pricing Agent,Revenue Gain %,Net Profit/Revenue Gain (%),3.33
+2. Pricing Agent,Charger Utilization Rate,Average Utilization Shift (%),-31.38
+2. Pricing Agent,Off-Peak Uplift,Off-Peak Volume Uplift (%),-3.64
+3. Monitoring Agent,Wait Time Reduction (UrbanEV),Baseline Avg Queue (Peak Hours),2.930000066757202
+3. Monitoring Agent,Wait Time Reduction (UrbanEV),AI-Managed Avg Queue (Peak Hours),1.96
+3. Monitoring Agent,Wait Time Reduction (UrbanEV),Queue Reduction Score (%),33.28
+3. Monitoring Agent,Customer Response Rate (ACN),Baseline Subject Volume (kWh),108932.0
+3. Monitoring Agent,Customer Response Rate (ACN),AI-Shaped Subject Volume (kWh),94788.0
+3. Monitoring Agent,Customer Response Rate (ACN),Volume Shift Score (%),-12.98
+3. Monitoring Agent,Pricing Efficiency Score (ACN),Baseline Efficiency (INR per kWh),15.0
+3. Monitoring Agent,Pricing Efficiency Score (ACN),Dynamic Efficiency (INR per kWh),17.31
+3. Monitoring Agent,Pricing Efficiency Score (ACN),Efficiency Growth Score (%),15.42
